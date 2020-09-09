@@ -8,10 +8,11 @@ import reactor.core.publisher.Flux;
 
 import java.util.UUID;
 
+
 public class DummyData implements CommandLineRunner {
 
   @Autowired
-  PlaylistRepository playlistRepository;
+  private PlaylistRepository playlistRepository;
 
   @Override
   public void run(String... args) throws Exception {
